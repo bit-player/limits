@@ -1,0 +1,31 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font: 1.0em 'Helvetica Neue', Helvetica, Verdana, sans-serif;
+}
+
+div.content {
+	background-color: #f6f6f6;
+	border-style: solid;
+	border-width: 1px;
+	position: relative;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	width: 800px;
+}
+
+h2 { 
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #a05242;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #e07154;
+}

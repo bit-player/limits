@@ -1,0 +1,160 @@
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font: 1.0em "Helvetica Neue", Helvetica, Verdana, sans-serif;
+}
+
+div.content {
+	background-color: #f6f6f6;
+	border-style: solid;
+	border-width: 1px;
+	position: relative;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+}
+
+div#chart {
+	background-color: #e6e6e6;
+	border-style: solid;
+	position: relative;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	border-width: 0px;
+	border-bottom-width: 1px;
+	border-top-width: 1px;
+	height: 450px;
+	width: 800px;
+}
+
+div#header {
+	height: 30px;
+	text-align: center;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+div#header h2 {
+	font-size: 1.2em;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	line-height: 30px;
+}
+
+canvas {
+	background-color: #e1e1e1;
+}
+
+
+
+div#controls {
+	position: relative;
+	font-size: 0.85em;
+	height: 250px;
+}
+
+div#sliders {
+	/* background-color: #ffe1e1; */
+	width: 350px;	
+	position: absolute;
+	top: 10px;
+	left: 20px;
+}
+
+div.slider-set {
+	width: 300px;
+	margin-top: 8px;
+	position: relative;
+	clear: left;
+	background-color: #f0f0f0;
+}
+
+div.slider-set label {
+	display: block;
+	text-align: center;
+}
+
+input.slider {
+	width: 225px;
+	margin-bottom: 15px;
+	margin-left: 5px;
+}
+
+.slider-readout {
+  text-align: right;
+  position: absolute;
+  right: 5px;
+  top: 15px;
+}
+
+button#run {
+	width: 75px;
+	position: absolute;
+	top: 20px;
+	right: 50px;
+}
+
+button#reset {
+	width: 75px;
+	position: absolute;
+	top: 50px;
+	right: 50px;
+}
+
+button#defaults {
+	width: 75px;
+	position: absolute;
+	top: 80px;
+	right: 50px;
+}
+
+button#fast-run {
+	width: 75px;
+	position: absolute;
+	top: 110px;
+	right: 50px;
+}
+
+div#checkboxes {
+	/* background-color: #ffe1e1; */
+	width: 250px;
+	position: absolute;
+	top: 0px;
+	right: 150px;
+}
+
+input.checkbox {
+  display: block;
+}
+
+#checkboxes label:hover {
+ cursor:pointer;
+}
+
+div.checkbox-line, div.select-line {
+  position: relative;
+}
+
+div.checkbox-line label, div.select-line label {
+  position: absolute;
+  left: 80px;
+}
+
+select {
+  width: 200px;
+  position: absolute;
+  left: 100px;
+}
+
+div.color-sample {
+  width: 75px;
+  height: 5px;
+  background-color: "transparent";
+  display: inline;
+  position: absolute;
+  left: 0px;
+  top: 6px;
+}
